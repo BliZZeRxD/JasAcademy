@@ -13,6 +13,9 @@
 		8593E902290519DC007038DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8593E900290519DC007038DF /* Main.storyboard */; };
 		8593E904290519DF007038DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8593E903290519DF007038DF /* Assets.xcassets */; };
 		8593E907290519DF007038DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8593E905290519DF007038DF /* LaunchScreen.storyboard */; };
+		8593E91029051AFB007038DF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8593E90E29051AFB007038DF /* MovieCell.swift */; };
+		8593E91129051AFB007038DF /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8593E90F29051AFB007038DF /* MovieCell.xib */; };
+		8593E91329051F65007038DF /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8593E91229051F65007038DF /* MovieData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8593E903290519DF007038DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8593E906290519DF007038DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8593E908290519DF007038DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8593E90E29051AFB007038DF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8593E90F29051AFB007038DF /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		8593E91229051F65007038DF /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				8593E8FA290519DC007038DF /* AppDelegate.swift */,
 				8593E8FC290519DC007038DF /* SceneDelegate.swift */,
 				8593E8FE290519DC007038DF /* ViewController.swift */,
+				8593E90E29051AFB007038DF /* MovieCell.swift */,
+				8593E91229051F65007038DF /* MovieData.swift */,
+				8593E90F29051AFB007038DF /* MovieCell.xib */,
 				8593E900290519DC007038DF /* Main.storyboard */,
 				8593E903290519DF007038DF /* Assets.xcassets */,
 				8593E905290519DF007038DF /* LaunchScreen.storyboard */,
@@ -127,6 +136,7 @@
 			files = (
 				8593E907290519DF007038DF /* LaunchScreen.storyboard in Resources */,
 				8593E904290519DF007038DF /* Assets.xcassets in Resources */,
+				8593E91129051AFB007038DF /* MovieCell.xib in Resources */,
 				8593E902290519DC007038DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +150,8 @@
 			files = (
 				8593E8FF290519DC007038DF /* ViewController.swift in Sources */,
 				8593E8FB290519DC007038DF /* AppDelegate.swift in Sources */,
+				8593E91029051AFB007038DF /* MovieCell.swift in Sources */,
+				8593E91329051F65007038DF /* MovieData.swift in Sources */,
 				8593E8FD290519DC007038DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
